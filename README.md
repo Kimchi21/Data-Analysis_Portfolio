@@ -1,4 +1,4 @@
-# Data-Analysis_Portfolio
+# Data Analysis Portfolio
 
 Hello, and thanks for stopping by! This repository contains personal data analysis projects that I have done utilizing Python, SQL, Excel and PowerBI. Below are some of my highlighted projects, including data visualization, statistical analysis, and data-driven insights. 
 
