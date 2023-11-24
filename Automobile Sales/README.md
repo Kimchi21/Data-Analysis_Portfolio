@@ -85,17 +85,15 @@ The most prevalent deal size observed was Medium, constituting 49.1% of the dist
 #### 8. **Distribution of Sales**
 Notably, the average sale price is observed to be 3553.05. The recorded sales range from a minimum of 482.13 to a maximum of 14082. There is one sale in particular that is valued at 14082 which serves as the highest sale recorded.
 
-#### 9. **Distribution of Sales**
-
 ### Customer and Geographic Analysis:
 
-#### 10. **Distribution of Countries**
+#### 9 **Distribution of Countries**
 The top three countries placing orders were the USA with 928 counts, followed by Spain with 342 counts, and France with 314 counts.
 
-#### 11. **Distribution of Cities**
+#### 10. **Distribution of Cities**
 The cities with the highest order counts were Madrid, registering 304 orders, followed by San Rafael with 180 counts, and NYC with 152 counts.
 
-#### 12. **Distribution of Customers**
+#### 11. **Distribution of Customers**
 The most frequent customer is Euro Shopping Channel with 259 transactions made followed by Mini Gifts Distributors Ltd. with 180 transactions made.
 
 ### Relationship Analysis
@@ -269,5 +267,8 @@ The comprehensive exploratory analysis illuminates crucial aspects of automobile
 **Continuous Monitoring and Adaptation**:
 - Real-time Monitoring: Establish systems for real-time monitoring of sales trends, enabling swift adaptation to changing market dynamics.
 
-## Dashboards<a name="dashboards"></a>
-To be added...
+## Dashboard<a name="dashboards"></a>
+
+<p align="center">
+  <img src="Resources\dashboard.png" alt="main" width="650">
+</p>
