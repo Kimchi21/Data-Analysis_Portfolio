@@ -9,7 +9,7 @@
 3. [Exploratory Data Analysis](#exploratory-data-analysis)
 4. [Results and Conclusion](#results-and-conclusion)
 5. [Recommendations](#recommendations)
-6. [Dashboards](#dashboards)
+6. [Dashboard](#dashboards)
 
 ## Overview<a name="overview"></a>
 This analysis delves into a range of automobile sales transactions, exploring details such as Order Number, Quantity Ordered, Price, Product Line, Customer Information, and more. By scrutinizing critical aspects like sales volume, deal sizes, customer demographics, and order specifics across various automobile models, our objective is to unearth valuable insights. This analysis endeavors to provide prospective buyers and stakeholders with a comprehensive understanding of automobile sales patterns, enabling informed decision-making. 
