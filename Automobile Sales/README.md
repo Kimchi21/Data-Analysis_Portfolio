@@ -129,7 +129,7 @@ Overall, the best-performing product of all time appears to be Classic Cars in t
   <img src="Resources/year.png" alt="year" width="600">
 </p>
 
-For yearly trend, it can be seen that there is a point in the years that it reaches a new highest sale is made.
+For the yearly trend, it can be seen that the end of the year is the time when the highest sales are made.
 
 #### **Sales Trend by Quarter**
 
@@ -137,7 +137,7 @@ For yearly trend, it can be seen that there is a point in the years that it reac
   <img src="Resources/quarter.png" alt="quarter" width="600">
 </p>
 
-For quarterly trend, it can be seen that both 2018 and 2019 has closely stagnant sales made across the quarters however entering the year 2020 sales are reaching new heights with the 2.0 quarter or the 1st quarter of the year.
+For the quarterly trend, as seen in the yearly trend, this confirms that sales are highest at the end of the year.
 
 #### **Sales Trend by Month**
 
@@ -145,7 +145,7 @@ For quarterly trend, it can be seen that both 2018 and 2019 has closely stagnant
   <img src="Resources/month.png" alt="month" width="600">
 </p>
 
-For quarterly trend, it can be seen that both 2018 and 2019 has closely stagnant sales made across the quarters however entering the year 2020 sales are reaching new heights with the 2.0 quarter or the 1st quarter of the year.
+For the monthly trend, this trend also follows the trend in which the highest sales made was from the end of the month in the year of 2019 followed closely by the previous year.
 
 #### **Sales Trend by Day of Month**
 
@@ -153,7 +153,7 @@ For quarterly trend, it can be seen that both 2018 and 2019 has closely stagnant
   <img src="Resources/dom.png" alt="dom" width="600">
 </p>
 
-For day of the month trend, it can be seen that near the middle of the month sales are at the highest and lowest at the end of the month.
+For day of the month trend, it can be seen that near the middle of the month sales are at the highest.
 
 #### **Sales Trend by Day of the Week**
 
@@ -261,7 +261,7 @@ The comprehensive exploratory analysis illuminates crucial aspects of automobile
 ### Future Growth Strategies
 
 **Forecast-Driven Planning**:
-- Utilize Sales Forecasting: Leverage sales forecasting tools like Prophet to plan inventory, marketing, and staffing to align with projected sales trends.
+- Utilize Sales Forecasting: Leverage sales forecasting to plan inventory, marketing, and staffing to align with projected sales trends.
 
 **Customer-Centric Approach**:
 - Personalized Marketing: Implement personalized marketing strategies based on customer purchasing patterns and preferences to enhance customer engagement and retention.
