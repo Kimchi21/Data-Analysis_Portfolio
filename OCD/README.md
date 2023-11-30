@@ -1,4 +1,4 @@
-# Automobile Sales Analysis
+# Obsessive-Compulsive Disorder (OCD) Analysis
 
 <p align="center">
   <img src="https://cdn-icons-png.flaticon.com/512/4863/4863807.png" alt="OCD" width="400">
