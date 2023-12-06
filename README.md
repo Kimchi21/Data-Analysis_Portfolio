@@ -36,7 +36,7 @@ In this [project](https://github.com/Kimchi21/Data-Analysis_Portfolio/tree/main/
 - Diagnosis and Treatment Trends: Investigating the timeline of OCD diagnoses, previous diagnoses, family history correlations, and the usage of medications among patients.
 
 ## Google Takeout Data Analysis
-In this [project](https://github.com/Kimchi21/Data-Analysis_Portfolio/tree/main/Google%20Takeout#exploratory-data-analysis), I used personal data from Google Fit and Youtube that was extracted with the help of Google Takeout. It delves into diverse aspects of my activity within these platforms, examining information such as fitness metrics, video consumption patterns, user engagement, and more. By scrutinizing critical data points, the objective is to extract valuable insights that shed light on my behaviors and preferences.
+In this [project](https://github.com/Kimchi21/Data-Analysis_Portfolio/tree/main/Google%20Takeout), I used personal data from Google Fit and Youtube that was extracted with the help of Google Takeout. It delves into diverse aspects of my activity within these platforms, examining information such as fitness metrics, video consumption patterns, user engagement, and more. By scrutinizing critical data points, the objective is to extract valuable insights that shed light on my behaviors and preferences.
 
 ### Key Objectives and Highlights
 - Fitness and Activity Trends: Analyzing data from Google Fit to uncover patterns related to my fitness activities, such as step counts, workout duration, speed analysis, and activity types. This exploration aims to understand prevalent fitness trends.
