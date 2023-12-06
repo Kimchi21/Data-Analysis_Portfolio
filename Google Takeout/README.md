@@ -9,7 +9,6 @@
 3. [Exploratory Data Analysis](#exploratory-data-analysis)
 4. [Results and Conclusion](#results-and-conclusion)
 5. [Recommendations](#recommendations)
-6. [Dashboard](#dashboard)
 
 ## Overview<a name="overview"></a>
 This analysis encompasses the utilization of Google Takeout, focusing on data extracted from Google Fit and YouTube. It delves into diverse aspects of my activity within these platforms, examining information such as fitness metrics, video consumption patterns, user engagement, and more. By scrutinizing critical data points, the objective is to extract valuable insights that shed light on my behaviors and preferences.
@@ -299,4 +298,4 @@ The exploratory analysis of Google Fit and YouTube data revealed intricate trend
 
 ## Recommendations<a name="recommendations"></a>
 
-I gussed some things I could recommend myself is to ontinue and maintain the walking routine I initiated in September, as it notably increased my physical activity metrics and positively impacted your health indicators. As for my Youtube usage I think optimizing screen time to monitor and manage screen time on YouTube so that I could maintain a healthy balance between entertainment, relaxation, and other activities and make sure that YouTube usage doesn't interfere significantly with my other daily routines or activities. Also I should consider setting personal limits on daily or weekly YouTube usage to strike a balance between entertainment and other aspects of life.
+I guess some things I could recommend to myself are to continue and maintain the walking routine I initiated in September, as it notably increased my physical activity metrics and positively impacted my health indicators. As for my Youtube usage, I think optimizing screen time is necessary to monitor and manage screen time on YouTube so that I can maintain a healthy balance between entertainment, relaxation, and other activities and make sure that YouTube usage doesn't interfere significantly with my other daily routines or activities. Also, I should consider setting personal limits on daily or weekly YouTube usage to strike a balance between entertainment and other aspects of life.
