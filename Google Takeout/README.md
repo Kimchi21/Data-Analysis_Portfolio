@@ -89,7 +89,7 @@ There are a total of 8 values missing from the Move minutes count column. The wa
 There are alot of values missing on the Biking and Running Duration since most of the physical activity I do is walking. I will calculate the total activity duration by summing all 3 values to create a new column for Total Duration.
 
 #### Heart Points and Minutes
-This data records the total Heart Points that a user has obtained from all of their activities. Every data point shows how many Heart Points were determined over a certain period of time. This is taken from the Google Fit [developer page](https://developers.google.com/fit/datatypes)
+This data records the total Heart Points that a user has obtained from all of their activities. Every data point shows how many Heart Points were determined over a certain period of time. This is taken from the Google Fit [developer page](https://developers.google.com/fit/datatypes).
 
 User's can set a daily Heart Point goal and track their progress. Heart Points can be calculated using:
 - heart rate
@@ -121,7 +121,9 @@ These columns were dropped because I didn't have any particular use for them whe
 Removed the "Watched" word in the title column and reformatted the details columns to isolate the "From Google Ads".
 
 #### Create a Duration column based on the watch time
-The calculation for the duration presented a challenge for me. The original logic I used was the basic subtract the time difference between each video. However, I discovered this logic was flawed since if I just simply subtracted via the time differences but I did not take into account the time I was offline/sleeping/doing-something-else outside Youtube so therefore the ending watch hours resulted in the whole timeframe from July 17 to November 19 essentially (2977 hours). I thought of many things to filter out that "Time Space" and the solution I ultimately choosed was to drop anything longer than 3 hours gap and then continue the by row calculation. Yep it's a shortcut but it's a much better approximation than my previous method.
+The calculation for the duration presented a challenge for me. The original logic I used was the basic subtract the time difference between each video. However, I discovered this logic was flawed since if I just simply subtracted via the time differences but I did not take into account the time I was offline/sleeping/doing-something-else outside Youtube so therefore the ending watch hours resulted in the whole timeframe from July 17 to November 19 essentially (2977 hours). I thought of many things to filter out that "Time Space" and the solution I ultimately choosed was to drop anything longer than 1 hour and 30 minute gap and then continue the by row calculation. Yep it's a shortcut but it's a much better approximation than my previous method.
+
+Why 1 hour and 30 minutes? It's hard to approximate a good gap filter since this is based on my personal viewing habits, usually when I'm learning or doing projects, I watch some videos or listen to music on my second monitor, and then when I'm on my phone, I continue to watch something as I lay by my bed. For instance, when I'm working on something on my laptop, I have Youtube open, and then when I'm finished, I go lay on my bed and immediately watch something on Youtube without any delay.
 
 ### New Data Dictionary
 
@@ -155,7 +157,7 @@ The calculation for the duration presented a challenge for me. The original logi
 
 
 ## Exploratory Data Analysis<a name="exploratory-data-analysis"></a>
-The size of the data for Google Fit has changed from being 288 rows down to 202 and for my Youtube data it changed from 43100 records down to 42939.
+The size of the data for Google Fit has changed from being 288 rows down to 202 and for my Youtube data it changed from 43100 records down to 42732.
 
 ### Key Insights from EDA
 
@@ -254,7 +256,7 @@ Overall, my YouTube consumption appears to be a balanced mix of gaming-related c
   <img src="Resources\ads.png" alt="ads" width="600">
 </p>
 
-The "Not Available" counts pertain to videos that are not ads, and the other is, well, ads. The only time I encounter ads is when using Youtube with my phone, as I use an adblocker when I access Youtube on my laptop. I'm surprised that the count of ads (5763) I encountered is low. Then again, I use adblock as YouTube ads are way too aggressive. I think this number will be higher if I didn't use adblock on my laptop, and this count is already 13.4% of the videos I "watched.".
+The "Not Available" counts pertain to videos that are not ads, and the other is, well, ads. The only time I encounter ads is when using Youtube with my phone, as I use an adblocker when I access Youtube on my laptop. I'm surprised that the count of ads (5722) I encountered is low. Then again, I use adblock, as YouTube ads are way too aggressive. I think this number will be higher if I don't use adblock on my laptop, and this count is already 13.38% of the videos I "watched.".
 
 #### What is my average watch/listen time?
 
@@ -262,8 +264,7 @@ The "Not Available" counts pertain to videos that are not ads, and the other is,
   <img src="Resources\ave.png" alt="ave" width="650">
 </p>
 
-Starting from July 17, 2023, to November 19, 2023, my daily average watch or listen time is 16.14 hours, which I think is still an approximation of my actual time. Some key observations are that August 4, 2023, is my graduation day, and I did not access YouTube during this day. The low watch times could be attributed to a power outage. I'm out for social occasions or events. This presents or highlights that my most used application across mobile, desktop, and laptop is indeed YouTube.
-
+Starting from July 17, 2023, to November 19, 2023, my daily average watch or listen time is 12.69 hours, which I think is still an approximation of my actual time spent on the platform. Some key observations are that August 4, 2023, is my graduation day, and I did not access YouTube on this day. The low watch times could be attributed to a power outage, I'm out for social occasions or events. As for the days that I have high watch times, it is either that I slept late and woke up early, then proceeded to continue consuming content on Youtube. This presents or highlights that my most used application across mobile, desktop, and laptop is indeed YouTube.
 
 ## Results and Conclusion<a name="results-and-conclusion"></a>
 
